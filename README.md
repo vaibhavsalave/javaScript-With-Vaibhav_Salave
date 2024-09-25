@@ -1,2 +1,2 @@
-# javaScript-With-Vaibhav_Salave
+# JavaScript-With-Vaibhav_Salave
 JavaScript
