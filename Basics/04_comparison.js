@@ -11,7 +11,7 @@ console.log(null == 0 ); //false
 // value conversion 
 console.log(null >= 0);  //true
 
-// === check datatype also 
+// === check datatype also  
 
 
 
