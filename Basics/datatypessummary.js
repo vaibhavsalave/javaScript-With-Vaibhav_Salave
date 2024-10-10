@@ -55,7 +55,37 @@
   
   /*
        Primitve -  Stack 
-       Heap      - Non-Primitive
+       Heap      - Non-Primitive(referance)
+   
 
 
   */
+
+       let myname ="vipul";
+       let  anothername = myname ;
+
+       anothername = "chailvaibhav" ;
+
+       console.log(myname); // vipul 
+       console.log(anothername); //  chailvaibhav
+
+
+       let userOne =
+       {
+           name : "alish " ,
+           upi : "alish@"
+
+       }
+       
+       let usertwo = userOne 
+
+       usertwo.upi = "hrrr"
+       
+       console.log(userOne.upi); // hrrr
+       console.log(usertwo.upi); //hrrr
+       
+       
+
+      
+
+
