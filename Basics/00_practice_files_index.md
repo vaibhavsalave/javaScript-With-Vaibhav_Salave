@@ -33,6 +33,9 @@ This directory contains comprehensive practice files covering all aspects of Jav
 - **`19_function_patterns_practice.js`** - Function patterns and closures
 - **`20_async_promises_practice.js`** - Asynchronous programming
 - **`21_es6_modern_features_practice.js`** - Modern JavaScript features
+- **`22_advanced_js_concepts_practice.js`** - Symbols, generators, proxies, Reflect API
+- **`23_dom_browser_apis_practice.js`** - DOM manipulation, browser APIs, web development
+- **`24_modern_js_patterns_practice.js`** - Design patterns, best practices, functional programming
 
 ---
 

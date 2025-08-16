@@ -14,7 +14,10 @@ const practiceFiles = [
     '18_string_methods_practice.js',
     '19_function_patterns_practice.js',
     '20_async_promises_practice.js',
-    '21_es6_modern_features_practice.js'
+    '21_es6_modern_features_practice.js',
+    '22_advanced_js_concepts_practice.js',
+    '23_dom_browser_apis_practice.js',
+    '24_modern_js_patterns_practice.js'
 ];
 
 // Function to run a specific practice file
@@ -57,14 +60,17 @@ function runAllPracticeFiles() {
 // Function to show available options
 function showHelp() {
     console.log("Available commands:");
-    console.log("  all     - Run all practice files");
-    console.log("  array   - Run array methods practice");
-    console.log("  object  - Run object methods practice");
-    console.log("  string  - Run string methods practice");
-    console.log("  func    - Run function patterns practice");
-    console.log("  async   - Run async programming practice");
-    console.log("  es6     - Run ES6+ features practice");
-    console.log("  help    - Show this help message");
+console.log("  all      - Run all practice files");
+console.log("  array    - Run array methods practice");
+console.log("  object   - Run object methods practice");
+console.log("  string   - Run string methods practice");
+console.log("  func     - Run function patterns practice");
+console.log("  async    - Run async programming practice");
+console.log("  es6      - Run ES6+ features practice");
+console.log("  advanced - Run advanced JS concepts practice");
+console.log("  dom      - Run DOM & browser APIs practice");
+console.log("  patterns - Run modern JS patterns practice");
+console.log("  help     - Show this help message");
     console.log("\nExample: node run_practice.js array");
 }
 
@@ -92,6 +98,15 @@ switch (command.toLowerCase()) {
         break;
     case 'es6':
         runPracticeFile('21_es6_modern_features_practice.js');
+        break;
+    case 'advanced':
+        runPracticeFile('22_advanced_js_concepts_practice.js');
+        break;
+    case 'dom':
+        runPracticeFile('23_dom_browser_apis_practice.js');
+        break;
+    case 'patterns':
+        runPracticeFile('24_modern_js_patterns_practice.js');
         break;
     case 'help':
     default:
