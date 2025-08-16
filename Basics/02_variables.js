@@ -1,8 +1,40 @@
-// JavaScript Data Types - Complete Guide
+// JavaScript Data Types - Complete Guide with Advanced Theory
+
+/*
+🎯 DATA TYPES THEORY:
+
+WHAT ARE DATA TYPES?
+- Data types specify what kind of data can be stored in variables
+- They determine what operations can be performed on the data
+- JavaScript is "dynamically typed" - types are determined at runtime
+- Types help the JavaScript engine optimize memory usage and operations
+
+WHY ARE DATA TYPES IMPORTANT?
+1. Memory allocation efficiency
+2. Type-specific operations and methods
+3. Error prevention and debugging
+4. Performance optimization
+5. Code clarity and documentation
+*/
 
 // =====================================================
-// STRICT MODE
+// STRICT MODE - DETAILED THEORY
 // =====================================================
+
+/*
+🔒 STRICT MODE THEORY:
+
+WHAT IS STRICT MODE?
+- A feature that makes JavaScript run in a "stricter" context
+- Eliminates some JavaScript silent errors by throwing errors
+- Fixes mistakes that make it difficult for JS engines to optimize
+- Prohibits syntax likely to be defined in future ECMAScript versions
+
+HOW TO ENABLE:
+- Add "use strict"; at the beginning of a script or function
+- Entire script or individual functions can be in strict mode
+- ES6 modules and classes are automatically in strict mode
+*/
 
 // "use strict" - Treats all JS code as newer version with stricter syntax
 "use strict";

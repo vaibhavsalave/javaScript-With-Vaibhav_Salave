@@ -1,11 +1,42 @@
-// Variables in JavaScript - Complete Guide
+// Variables in JavaScript - Complete Guide with Detailed Theory
+
+/*
+🔥 VARIABLE THEORY:
+
+WHAT ARE VARIABLES?
+- Variables are containers that store data values
+- They provide a way to label and store data in memory
+- Think of them as named boxes that hold information
+- Variables make code readable and maintainable
+
+WHY USE VARIABLES?
+1. Store data for later use
+2. Make code readable and meaningful
+3. Avoid repeating values (DRY principle)
+4. Allow dynamic data manipulation
+5. Enable program state management
+*/
 
 // =====================================================
-// VARIABLE DECLARATIONS
+// VARIABLE DECLARATIONS - DETAILED THEORY
 // =====================================================
+
+/*
+📦 JAVASCRIPT VARIABLE DECLARATION EVOLUTION:
+
+HISTORY:
+- Originally only 'var' existed (ES5 and before)
+- 'let' and 'const' introduced in ES6 (2015)
+- Modern JavaScript prefers 'let' and 'const'
+
+DECLARATION vs INITIALIZATION:
+- Declaration: Creating the variable name
+- Initialization: Assigning a value to the variable
+*/
 
 // 1. const - Cannot be reassigned (constant)
-// When we use const, the value cannot be changed
+// THEORY: const creates a constant reference, not constant value
+// When we use const, the BINDING cannot be changed
 const account_Id = 123456;
 
 // 2. let - Block-scoped, can be reassigned
