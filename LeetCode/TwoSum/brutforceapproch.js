@@ -72,22 +72,37 @@ function twosumbrute(nums ,target)
         }
      }
 }
-
-
-
-
-
-
-
-
-
-
 let  nums = [2,7,11, 15] ;
 let target =  9 ;
 
 let result =twosumbrute(nums , target) ;
 
 console.log(result) ;
+
+/* 
+ here time complexcity  is  O(n^2)
+
+ becuse we  run two loppes inside  -  ecah loppes runs till array.length-1 
+
+ mense each loop  runs n times 
+
+ n*n
+
+
+ space complexity  -  O(1)  becse no extra arrays  , no maps  , no new data structures 
+
+*/
+
+/*
+ what are know to developer 
+
+ 1.  function  -  call , body  , types  , how to pass argument  
+ 2.  increment  , decrement  operator  -- , ++ ,  pre, post 
+ 3. loop 
+ 4.  property  of  array  like index  , array length  
+ 5.time and space complexcity 
+
+*/
 
 
 
