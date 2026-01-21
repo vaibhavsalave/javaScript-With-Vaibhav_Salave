@@ -107,6 +107,18 @@
           let user3 = new User("rahul" , 22) ;
 
 
+          this keyword refer to object   , new keyword create the object  
+
+
 7)  function Hoisting 
 
     function hosting  is allow with function  declaration  not with function  expression
+
+8) self-Invoking functions : - 
+
+        mnese  function  immedialty call 
+
+        (function () ) 
+        {
+            // function body 
+        }
