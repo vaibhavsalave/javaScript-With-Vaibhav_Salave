@@ -36,4 +36,38 @@
 
       let  Varibale =  FUNCTION_BODY
 
-      
+
+      mese that varible store a referance  of function  
+
+      Varibale point  to  FUNCTION_NAME 
+
+      THAT WHY WHEN WE CALL  VAIRBLE THAT STOE FUNCTION REFERNCE  THEN INDIRECTLY   call go to function  function
+
+
+      example  like  =  
+
+      function add(a ,b ) 
+      {
+        return a+b ;
+      } 
+
+      let sum =  add  ;
+
+      console.log(sum(3,4)) ;
+
+
+      this reduce  the function  callback 
+
+
+       function sayHello()
+        {
+                  console.log("Hello!");
+         }
+
+          function callFunction(sayHello) 
+          {
+            sayHello(); // indirect call
+           }
+
+          callFunction(sayHello);
+
