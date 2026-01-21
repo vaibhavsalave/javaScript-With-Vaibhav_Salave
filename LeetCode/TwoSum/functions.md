@@ -71,3 +71,42 @@
 
           callFunction(sayHello);
 
+6)  function Constructor :
+
+        why function construcor Neeed  in real time  
+
+        suppose we want  same object item for every object  then  it is diffcult ot wight that why
+
+        let  user1 = {
+            name : "vaibhav" ,
+            age : 21
+
+        } ;
+        let  user2 = {
+            name : "rakesh" ,
+            age : 22
+
+        } ; 
+        let  user3 = {
+            name : "rahul" ,
+            age : 22
+
+        } ;
+
+        and with function constructor 
+
+          function User(name , age )
+          {
+            this.name = name ;
+            this.age = age ;
+
+          }
+
+          let user1 = new User("vaibhav" , 21) ;
+          let user2 = new User("rakesh" , 22) ;
+          let user3 = new User("rahul" , 22) ;
+
+
+7)  function Hoisting 
+
+    function hosting  is allow with function  declaration  not with function  expression
