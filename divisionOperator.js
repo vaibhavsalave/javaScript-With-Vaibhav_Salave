@@ -11,3 +11,14 @@ var y  =  "10" ;
 var z = x/y ;
 
 console.log(z) ;
+
+// modulus operator  
+
+// % 
+
+// modulus operator mense  in marathi  baki 
+
+/*
+   15 %2   =  1 
+
+*/
